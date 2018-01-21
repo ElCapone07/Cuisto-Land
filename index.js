@@ -343,7 +343,7 @@ bot.on('message', message => {
                .addField("**Vous avez un petit creux ?**","Venez déguster un bon Hamburger ou partager une fondue !")
                .addField("**Pas le temps ?**","Des menus express existent !")
                .addField("**Vous y trouverez forcément votre bonheur !**","Pas besoin d'un membre du staff pour vous apporter votre repas,{~Cuisto~Land~} est là pour vous servir !")
-               .addField("*Un bot des plus réalistes créé par Jojojordyland et L'équipe Food :cake: , qui va satisfaire tous les gourmands et les gourmandes !**","Bon app tout le monde :pizza: !")
+               .addField("**Un bot des plus réalistes créé par Jojojordyland et L'équipe Food :cake: , qui va satisfaire tous les gourmands et les gourmandes !**","Bon app tout le monde :pizza: !")
                .setFooter("Description Réalisée par 🔪La Psychopathe🔪")
            message.channel.sendEmbed(description_embed)
         }
