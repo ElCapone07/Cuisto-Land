@@ -1,0 +1,21 @@
+{
+  "name": "catcute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "El Capone",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "fs-extra": "^5.0.0",
+    "opusscript": "0.0.4",
+    "random-number": "0.0.9",
+    "simple-youtube-api": "^5.0.0",
+    "superagent": "^3.8.2",
+    "ytdl-core": "^0.18.3"
+  }
+}
