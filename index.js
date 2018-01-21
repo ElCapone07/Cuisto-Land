@@ -6,13 +6,11 @@ var randnum = 0;
 
 bot.on("ready", () => {
     
-        bot.user.setPresence({game: {name: `Cuisiner des petits plats 🍰 !`}})
-
-            console.log(bot.users.size,'membres', bot.guilds.size,'serveurs');
-            
+        bot.user.setPresence({game: {name: `Cuisiner des petits plats 🍰 !`}})      
 });
 
-bot.login(process.env.TOKEN)
+bot.login(process.env.TOKEN);
+
 bot.on('message', message => {
 
         if (message.content === prefix + "menus"){
